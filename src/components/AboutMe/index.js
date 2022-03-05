@@ -1,115 +1,22 @@
 import React from 'react';
-import { Typing, TypingStep } from "typing-effect-reactjs";
+import { TypingStep } from "typing-effect-reactjs";
 const AboutMe = ({ height }) => {
-    console.log(height, 'height')
     return (
         <div className='aboutme' style={{ height: height }}>
+            <div className='title'>
             <h1>
-                {/* <Typing text={['항상 발전하는 풀스택 개발자 서명석 입니다']} /> */}
-                <TypingStep
-                    sequence={[
-                        {
-                            content: "항상 발전하는\n 풀스택 개발자\n 서명석 입니다 ",
-                        },
-                        {
-                            content: 10000, // 100ms delay
-                        },
-                        {
-                            content: -26, // Delete 16 characters
-                        },
-                        {
-                            content: "항상 발전하는\n 풀스택 개발자\n 서명석 입니다 ",
-                        },
-                        {
-                            content: 10000, // 100ms delay
-                        },
-                        {
-                            content: -26, // Delete 16 characters
-                        },
-                        {
-                            content: "항상 발전하는\n 풀스택 개발자\n 서명석 입니다 ",
-                        },
-                        {
-                            content: 10000, // 100ms delay
-                        },
-                        {
-                            content: -26, // Delete 16 characters
-                        },
-                        {
-                            content: "항상 발전하는\n 풀스택 개발자\n 서명석 입니다 ",
-                        },
-                        {
-                            content: 10000, // 100ms delay
-                        },
-                        {
-                            content: -26, // Delete 16 characters
-                        },
-                        {
-                            content: "항상 발전하는\n 풀스택 개발자\n 서명석 입니다 ",
-                        },
-                        {
-                            content: 10000, // 100ms delay
-                        },
-                        {
-                            content: -26, // Delete 16 characters
-                        },
-                        {
-                            content: "항상 발전하는\n 풀스택 개발자\n 서명석 입니다 ",
-                        },
-                        {
-                            content: 10000, // 100ms delay
-                        },
-                        {
-                            content: -26, // Delete 16 characters
-                        },
-                        {
-                            content: "항상 발전하는\n 풀스택 개발자\n 서명석 입니다 ",
-                        },
-                        {
-                            content: 10000, // 100ms delay
-                        },
-                        {
-                            content: -26, // Delete 16 characters
-                        },
-                        {
-                            content: "항상 발전하는\n 풀스택 개발자\n 서명석 입니다 ",
-                        },
-                        {
-                            content: 10000, // 100ms delay
-                        },
-                        {
-                            content: -26, // Delete 16 characters
-                        },
-                        {
-                            content: "항상 발전하는\n 풀스택 개발자\n 서명석 입니다 ",
-                        },
-                        {
-                            content: 10000, // 100ms delay
-                        },
-                        {
-                            content: -26, // Delete 16 characters
-                        },
-                        {
-                            content: "항상 발전하는\n 풀스택 개발자\n 서명석 입니다 ",
-                        },
-                        {
-                            content: 10000, // 100ms delay
-                        },
-                        {
-                            content: -26, // Delete 16 characters
-                        },
-                        {
-                            content: "항상 발전하는\n 풀스택 개발자\n 서명석 입니다 ",
-                        },
-                        {
-                            content: 10000, // 100ms delay
-                        },
-                        {
-                            content: -26, // Delete 16 characters
-                        },
-                    ]}
-                />
+                About Me
             </h1>
+            </div>
+            <div className='content'>
+                <div className="section">
+
+                </div>
+                <div className="section">
+                    <img src="" alt="내사진" />
+                </div>
+            </div>
+
         </div>
     );
 };
