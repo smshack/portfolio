@@ -6,6 +6,7 @@ import Career from './components/Career';
 import Certification from './components/Certification';
 import Skill from './components/Skills';
 import Footer from './components/Footer';
+import TypingMain from './components/TypingMain';
 const App = () => {
     // 윈도우 창의 크기가 변경 되면 해당 창의 크기를 조절해 준다
     const [widthSize, setWidthSize] = useState(window.innerWidth); // 창의 가로 사이즈
@@ -27,12 +28,13 @@ const App = () => {
     //=====================================================================================
   return (
     <div className='container'>
-      <Header/>
-      {/* <AboutMe height={heightSize}/>
+      <Header />
+      <TypingMain height={heightSize} />
+      <AboutMe height={heightSize} />
       <Skill height={heightSize}/>
       <Certification height={heightSize}/>
       <Career height={heightSize}/>
-      <Footer height={heightSize}/> */}
+      <Footer height={heightSize}/>
     </div>
   );
 }

@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Career = () => {
+const Career = ({height}) => {
     return (
-        <div className='career'>
+        <div className='career'  style={{ height: height }}>
            Career 
         </div>
     );

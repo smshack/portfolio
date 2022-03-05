@@ -1,9 +1,9 @@
 import React from 'react';
 import { Typing, TypingStep } from "typing-effect-reactjs";
-const AboutMe = ({ height }) => {
+const TypingMain = ({ height }) => {
     console.log(height, 'height')
     return (
-        <div className='aboutme' style={{ height: height }}>
+        <div className='typingmain' style={{ height: height }}>
             <h1>
                 {/* <Typing text={['항상 발전하는 풀스택 개발자 서명석 입니다']} /> */}
                 <TypingStep
@@ -114,4 +114,4 @@ const AboutMe = ({ height }) => {
     );
 };
 
-export default AboutMe;
+export default TypingMain;

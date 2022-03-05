@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Skill = () => {
+const Skill = ({height}) => {
     return (
-        <div className='skills'>
+        <div className='skills'  style={{ height: height }}>
             Skill
         </div>
     );
