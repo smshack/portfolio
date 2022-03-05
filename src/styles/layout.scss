@@ -1,0 +1,22 @@
+html{
+    font-family: Noto Sans KR, sans-serif;
+    font-size:14px;
+}
+
+body{
+    overflow-x: hidden;
+    // 스크롤이 안생김
+    color:rgb(29,29,31);
+    letter-spacing:-0.05em ;
+    // 자간 줄임
+    background-color: white;
+}
+
+p{
+    //  문단 기본 적인 행간
+    line-height: 1.6;
+}
+a{
+    color:rgb(29,29,31);
+    text-decoration: none;
+}

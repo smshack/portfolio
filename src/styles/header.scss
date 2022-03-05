@@ -1,0 +1,57 @@
+.local-nav{
+    height:52px;
+    padding: 0 1rem;
+    // 위아래 0 좌우 1rem
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    .local-nav-link{
+        display: flex;
+        // 세로 가운데 정렬
+        align-items: center;
+        // 최대 폭을 1000px
+        max-width:1000px;
+
+        height: 100%;
+        margin:0 auto;
+        .product-name{
+            // 마진에 오토가 들어가면 있는 마진을 전부 소진한다
+            margin-right: auto;
+            margin-left:0;
+            font-size:2rem;
+            font-weight: bold;
+        }
+        a{
+           margin-left:2em;
+           font-size:0.8rem;
+        }
+    }
+}
+
+
+
+.global-nav{
+    height:44px;
+    position: absolute;
+    top:53px;
+    left:0;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    // 위아래 0 좌우 1rem
+    padding: 0 1rem;
+
+    .global-nav-link{
+        display: flex;
+        // 세로 가운데 정렬
+        align-items: center;
+        // 가로 정렬
+        justify-content: space-between;
+        // 최대 폭을 1000px
+        max-width:1000px;
+
+        height: 100%;
+        margin:0 auto;
+    }
+
+}
